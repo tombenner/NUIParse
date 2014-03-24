@@ -1,3 +1,3 @@
 .DS_Store
-CoreParse.xcodeproj/project.xcworkspace/xcuserdata
-CoreParse.xcodeproj/xcuserdata
+*.xccheckout
+xcuserdata
