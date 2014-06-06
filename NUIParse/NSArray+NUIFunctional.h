@@ -1,5 +1,5 @@
 //
-//  NSArray+Functional.h
+//  NSArray+NUIFunctional.h
 //  NUIParse
 //
 //  Created by Tom Davie on 20/08/2012.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Functional)
+@interface NSArray (NUIFunctional)
 
 - (NSArray *)cp_map:(id(^)(id obj))block;
 

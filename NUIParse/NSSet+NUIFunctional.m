@@ -1,15 +1,15 @@
 //
-//  NSSetFunctional.m
+//  NSSet+NUIFunctional.m
 //  NUIParse
 //
 //  Created by Tom Davie on 06/03/2011.
 //  Copyright 2011 In The Beginning... All rights reserved.
 //
 
-#import "NSSetFunctional.h"
+#import "NSSet+NUIFunctional.h"
 
 
-@implementation NSSet(Functional)
+@implementation NSSet(NUIFunctional)
 
 - (NSSet *)cp_map:(id(^)(id obj))block
 {

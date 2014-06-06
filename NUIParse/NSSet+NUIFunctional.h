@@ -1,5 +1,5 @@
 //
-//  NSSetFunctional.h
+//  NSSet+NUIFunctional.h
 //  NUIParse
 //
 //  Created by Tom Davie on 06/03/2011.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface NSSet(Functional)
+@interface NSSet(NUIFunctional)
 
 - (NSSet *)cp_map:(id(^)(id obj))block;
 
