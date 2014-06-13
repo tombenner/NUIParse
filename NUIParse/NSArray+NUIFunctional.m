@@ -1,14 +1,14 @@
 //
-//  NSArray+Functional.m
+//  NSArray+NUIFunctional.m
 //  NUIParse
 //
 //  Created by Tom Davie on 20/08/2012.
 //  Copyright (c) 2012 In The Beginning... All rights reserved.
 //
 
-#import "NSArray+Functional.h"
+#import "NSArray+NUIFunctional.h"
 
-@implementation NSArray (Functional)
+@implementation NSArray (NUIFunctional)
 
 - (NSArray *)cp_map:(id(^)(id obj))block
 {

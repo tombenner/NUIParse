@@ -44,8 +44,8 @@
 		1F3882051323DDD8000C8876 /* NUIPShiftReduceParserProtectedMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3882031323DDD6000C8876 /* NUIPShiftReduceParserProtectedMethods.h */; };
 		1F3882091323F760000C8876 /* NUIPItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3882071323F75E000C8876 /* NUIPItem.h */; };
 		1F38820A1323F760000C8876 /* NUIPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3882081323F75F000C8876 /* NUIPItem.m */; };
-		1F38820D132432B2000C8876 /* NSSetFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F38820B132432A1000C8876 /* NSSetFunctional.h */; };
-		1F38820E132432B2000C8876 /* NSSetFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38820C132432AA000C8876 /* NSSetFunctional.m */; };
+		1F38820D132432B2000C8876 /* NSSet+NUIFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F38820B132432A1000C8876 /* NSSet+NUIFunctional.h */; };
+		1F38820E132432B2000C8876 /* NSSet+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38820C132432AA000C8876 /* NSSet+NUIFunctional.m */; };
 		1F45A2E413422E1300092D78 /* NUIPJSONParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F45A2E213422E1300092D78 /* NUIPJSONParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F45A2E513422E1300092D78 /* NUIPJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45A2E313422E1300092D78 /* NUIPJSONParser.m */; };
 		1F4683891306AA8500407491 /* NUIPKeywordRecogniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4683861306AA8500407491 /* NUIPKeywordRecogniser.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,7 +71,7 @@
 		1F530B8813216A1A00F52EB5 /* NUIPSyntaxTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F530B8613216A1A00F52EB5 /* NUIPSyntaxTree.m */; };
 		1F530B911322814000F52EB5 /* NUIPRule.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F530B8F1322813E00F52EB5 /* NUIPRule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F530B921322814000F52EB5 /* NUIPRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F530B901322813F00F52EB5 /* NUIPRule.m */; };
-		1F5623A8161652FA00C5EFA8 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6430615E2C5130004FCD3 /* NSArray+Functional.m */; };
+		1F5623A8161652FA00C5EFA8 /* NSArray+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6430615E2C5130004FCD3 /* NSArray+NUIFunctional.m */; };
 		1F6D44901348CC9500E982C7 /* NUIPLALR1Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6D448E1348CC9500E982C7 /* NUIPLALR1Parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F6D44911348CC9600E982C7 /* NUIPLALR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D448F1348CC9500E982C7 /* NUIPLALR1Parser.m */; };
 		1F8374A1154BF9D000DBA298 /* NUIPRecoveryAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F893A1E14DEEBFC00316FF7 /* NUIPRecoveryAction.m */; };
@@ -118,7 +118,7 @@
 		1F9281C4145C11A60033BC34 /* NUIPLR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3EB2B132BB2ED00ACC453 /* NUIPLR1Parser.m */; };
 		1F9281C5145C11A60033BC34 /* NUIPLALR1Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D448F1348CC9500E982C7 /* NUIPLALR1Parser.m */; };
 		1F9281C6145C11A60033BC34 /* NUIPJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F45A2E313422E1300092D78 /* NUIPJSONParser.m */; };
-		1F9281C7145C11A60033BC34 /* NSSetFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38820C132432AA000C8876 /* NSSetFunctional.m */; };
+		1F9281C7145C11A60033BC34 /* NSSet+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F38820C132432AA000C8876 /* NSSet+NUIFunctional.m */; };
 		1F9281C8145C17580033BC34 /* NUIParseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0E8919130462F300537D04 /* NUIParseTests.m */; };
 		1F9281C9145C18220033BC34 /* NUIPTestEvaluatorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3EB23132BA02C00ACC453 /* NUIPTestEvaluatorDelegate.m */; };
 		1F9281CA145C18220033BC34 /* NUIPTestWhiteSpaceIgnoringDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB81321132FEDAF0095982D /* NUIPTestWhiteSpaceIgnoringDelegate.m */; };
@@ -132,8 +132,8 @@
 		1FA43871162F515C00B92704 /* Expression2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4386C162F515C00B92704 /* Expression2.m */; };
 		1FA43872162F515C00B92704 /* RuleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA4386E162F515C00B92704 /* RuleBase.m */; };
 		1FA43873162F515C00B92704 /* Term2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA43870162F515C00B92704 /* Term2.m */; };
-		1FA6430715E2C5130004FCD3 /* NSArray+Functional.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA6430515E2C5130004FCD3 /* NSArray+Functional.h */; };
-		1FA6430815E2C5130004FCD3 /* NSArray+Functional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6430615E2C5130004FCD3 /* NSArray+Functional.m */; };
+		1FA6430715E2C5130004FCD3 /* NSArray+NUIFunctional.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA6430515E2C5130004FCD3 /* NSArray+NUIFunctional.h */; };
+		1FA6430815E2C5130004FCD3 /* NSArray+NUIFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA6430615E2C5130004FCD3 /* NSArray+NUIFunctional.m */; };
 		1FA68DA014DE98C4005519B9 /* NUIPErrorToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA68D9E14DE98C4005519B9 /* NUIPErrorToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FA68DA114DE98C4005519B9 /* NUIPErrorToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA68D9F14DE98C4005519B9 /* NUIPErrorToken.m */; };
 		1FA68DA514DE9D3D005519B9 /* NUIPTestErrorHandlingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA68DA314DE9D3D005519B9 /* NUIPTestErrorHandlingDelegate.h */; };
@@ -243,8 +243,8 @@
 		1F3882031323DDD6000C8876 /* NUIPShiftReduceParserProtectedMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPShiftReduceParserProtectedMethods.h; sourceTree = "<group>"; };
 		1F3882071323F75E000C8876 /* NUIPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPItem.h; sourceTree = "<group>"; };
 		1F3882081323F75F000C8876 /* NUIPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPItem.m; sourceTree = "<group>"; };
-		1F38820B132432A1000C8876 /* NSSetFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSetFunctional.h; sourceTree = "<group>"; };
-		1F38820C132432AA000C8876 /* NSSetFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetFunctional.m; sourceTree = "<group>"; };
+		1F38820B132432A1000C8876 /* NSSet+NUIFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+NUIFunctional.h"; sourceTree = "<group>"; };
+		1F38820C132432AA000C8876 /* NSSet+NUIFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+NUIFunctional.m"; sourceTree = "<group>"; };
 		1F45A2E213422E1300092D78 /* NUIPJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPJSONParser.h; sourceTree = "<group>"; };
 		1F45A2E313422E1300092D78 /* NUIPJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPJSONParser.m; sourceTree = "<group>"; };
 		1F4683861306AA8500407491 /* NUIPKeywordRecogniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NUIPKeywordRecogniser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
@@ -292,8 +292,8 @@
 		1FA4386E162F515C00B92704 /* RuleBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuleBase.m; sourceTree = "<group>"; };
 		1FA4386F162F515C00B92704 /* Term2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Term2.h; sourceTree = "<group>"; };
 		1FA43870162F515C00B92704 /* Term2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Term2.m; sourceTree = "<group>"; };
-		1FA6430515E2C5130004FCD3 /* NSArray+Functional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Functional.h"; sourceTree = "<group>"; };
-		1FA6430615E2C5130004FCD3 /* NSArray+Functional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Functional.m"; sourceTree = "<group>"; };
+		1FA6430515E2C5130004FCD3 /* NSArray+NUIFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NUIFunctional.h"; sourceTree = "<group>"; };
+		1FA6430615E2C5130004FCD3 /* NSArray+NUIFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NUIFunctional.m"; sourceTree = "<group>"; };
 		1FA68D9E14DE98C4005519B9 /* NUIPErrorToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPErrorToken.h; sourceTree = "<group>"; };
 		1FA68D9F14DE98C4005519B9 /* NUIPErrorToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPErrorToken.m; sourceTree = "<group>"; };
 		1FA68DA314DE9D3D005519B9 /* NUIPTestErrorHandlingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPTestErrorHandlingDelegate.h; sourceTree = "<group>"; };
@@ -425,10 +425,10 @@
 				1F45A2E113422DD800092D78 /* Built In Parsers */,
 				1F0E8900130462F300537D04 /* Supporting Files */,
 				DA2B1DF41566B311002FDBD7 /* NUIPSenTestKitAssertions.h */,
-				1F38820B132432A1000C8876 /* NSSetFunctional.h */,
-				1F38820C132432AA000C8876 /* NSSetFunctional.m */,
-				1FA6430515E2C5130004FCD3 /* NSArray+Functional.h */,
-				1FA6430615E2C5130004FCD3 /* NSArray+Functional.m */,
+				1F38820B132432A1000C8876 /* NSSet+NUIFunctional.h */,
+				1F38820C132432AA000C8876 /* NSSet+NUIFunctional.m */,
+				1FA6430515E2C5130004FCD3 /* NSArray+NUIFunctional.h */,
+				1FA6430615E2C5130004FCD3 /* NSArray+NUIFunctional.m */,
 			);
 			path = NUIParse;
 			sourceTree = "<group>";
@@ -681,7 +681,7 @@
 				1F3881F11322B6A3000C8876 /* NUIPShiftReduceGotoTable.h in Headers */,
 				1F3882051323DDD8000C8876 /* NUIPShiftReduceParserProtectedMethods.h in Headers */,
 				1F3882091323F760000C8876 /* NUIPItem.h in Headers */,
-				1F38820D132432B2000C8876 /* NSSetFunctional.h in Headers */,
+				1F38820D132432B2000C8876 /* NSSet+NUIFunctional.h in Headers */,
 				1FB3EB24132BA02C00ACC453 /* NUIPTestEvaluatorDelegate.h in Headers */,
 				1FB3EB30132BB31700ACC453 /* NUIPLR1Item.h in Headers */,
 				1FB81322132FEDAF0095982D /* NUIPTestWhiteSpaceIgnoringDelegate.h in Headers */,
@@ -696,7 +696,7 @@
 				1F893A2314DEF40D00316FF7 /* NUIPTestErrorEvaluatorDelegate.h in Headers */,
 				1FA866B715DFAEBC005350EE /* NUIPRule+Internal.h in Headers */,
 				1FA866C015E18F68005350EE /* NUIPRHSItem+Private.h in Headers */,
-				1FA6430715E2C5130004FCD3 /* NSArray+Functional.h in Headers */,
+				1FA6430715E2C5130004FCD3 /* NSArray+NUIFunctional.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -930,7 +930,7 @@
 				1F3881F21322B6A3000C8876 /* NUIPShiftReduceGotoTable.m in Sources */,
 				1F3882021323DB4A000C8876 /* NUIPSLRParser.m in Sources */,
 				1F38820A1323F760000C8876 /* NUIPItem.m in Sources */,
-				1F38820E132432B2000C8876 /* NSSetFunctional.m in Sources */,
+				1F38820E132432B2000C8876 /* NSSet+NUIFunctional.m in Sources */,
 				1FB3EB25132BA02C00ACC453 /* NUIPTestEvaluatorDelegate.m in Sources */,
 				1FB3EB2D132BB2F200ACC453 /* NUIPLR1Parser.m in Sources */,
 				1FB3EB31132BB31700ACC453 /* NUIPLR1Item.m in Sources */,
@@ -948,7 +948,7 @@
 				1FA68DA614DE9D3D005519B9 /* NUIPTestErrorHandlingDelegate.m in Sources */,
 				1F893A2014DEEBFC00316FF7 /* NUIPRecoveryAction.m in Sources */,
 				1F893A2414DEF40D00316FF7 /* NUIPTestErrorEvaluatorDelegate.m in Sources */,
-				1FA6430815E2C5130004FCD3 /* NSArray+Functional.m in Sources */,
+				1FA6430815E2C5130004FCD3 /* NSArray+NUIFunctional.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,7 +976,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F5623A8161652FA00C5EFA8 /* NSArray+Functional.m in Sources */,
+				1F5623A8161652FA00C5EFA8 /* NSArray+NUIFunctional.m in Sources */,
 				1F8374A1154BF9D000DBA298 /* NUIPRecoveryAction.m in Sources */,
 				1F9281A5145C11A60033BC34 /* NUIPTokeniser.m in Sources */,
 				1F9281A6145C11A60033BC34 /* NUIPTokenStream.m in Sources */,
@@ -1014,7 +1014,7 @@
 				1F9281C4145C11A60033BC34 /* NUIPLR1Parser.m in Sources */,
 				1F9281C5145C11A60033BC34 /* NUIPLALR1Parser.m in Sources */,
 				1F9281C6145C11A60033BC34 /* NUIPJSONParser.m in Sources */,
-				1F9281C7145C11A60033BC34 /* NSSetFunctional.m in Sources */,
+				1F9281C7145C11A60033BC34 /* NSSet+NUIFunctional.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
