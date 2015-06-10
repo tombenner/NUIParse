@@ -199,6 +199,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16633D551B28CFD80067CC83 /* NUIPSenTestKitAssertions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUIPSenTestKitAssertions.h; sourceTree = "<group>"; };
 		1F0E88F6130462F300537D04 /* NUIParse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUIParse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0E88F9130462F300537D04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1F0E88FC130462F300537D04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -324,7 +325,6 @@
 		54197207188F7D49004240B4 /* NUIPRegexpRecogniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPRegexpRecogniser.h; sourceTree = "<group>"; };
 		54197208188F7D49004240B4 /* NUIPRegexpRecogniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPRegexpRecogniser.m; sourceTree = "<group>"; };
 		5419721C188F9A54004240B4 /* NUIPRegexpRecogniserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPRegexpRecogniserTest.m; sourceTree = "<group>"; };
-		DA2B1DF41566B311002FDBD7 /* NUIPSenTestKitAssertions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUIPSenTestKitAssertions.h; sourceTree = "<group>"; };
 		DA2B1DF61566B704002FDBD7 /* NUIPSTAssertionsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIPSTAssertionsTests.h; sourceTree = "<group>"; };
 		DA2B1DF71566B704002FDBD7 /* NUIPSTAssertionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIPSTAssertionsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -424,7 +424,6 @@
 				1F530B7B132155BB00F52EB5 /* Parsers */,
 				1F45A2E113422DD800092D78 /* Built In Parsers */,
 				1F0E8900130462F300537D04 /* Supporting Files */,
-				DA2B1DF41566B311002FDBD7 /* NUIPSenTestKitAssertions.h */,
 				1F38820B132432A1000C8876 /* NSSet+NUIFunctional.h */,
 				1F38820C132432AA000C8876 /* NSSet+NUIFunctional.m */,
 				1FA6430515E2C5130004FCD3 /* NSArray+NUIFunctional.h */,
@@ -446,6 +445,7 @@
 		1F0E8910130462F300537D04 /* NUIParseTests */ = {
 			isa = PBXGroup;
 			children = (
+				16633D551B28CFD80067CC83 /* NUIPSenTestKitAssertions.h */,
 				1F0E8917130462F300537D04 /* NUIParseTests.h */,
 				1F0E8919130462F300537D04 /* NUIParseTests.m */,
 				DA2B1DF61566B704002FDBD7 /* NUIPSTAssertionsTests.h */,
