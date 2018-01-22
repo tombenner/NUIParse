@@ -13,7 +13,7 @@
 #import "NUIPTokenRecogniser.h"
 #import "NUIPKeywordRecogniser.h"
 #import "NUIPNumberRecogniser.h"
-#import "NUIPWhitespaceRecogniser.h"
+#import "NUIPWhiteSpaceRecogniser.h"
 #import "NUIPIdentifierRecogniser.h"
 #import "NUIPQuotedRecogniser.h"
 #import "NUIPRegexpRecogniser.h"
