@@ -14,7 +14,7 @@
 #import "NUIPTokenStream.h"
 #import "NUIPKeywordRecogniser.h"
 #import "NUIPNumberRecogniser.h"
-#import "NUIPWhitespaceRecogniser.h"
+#import "NUIPWhiteSpaceRecogniser.h"
 #import "NUIPWhiteSpaceToken.h"
 #import "NUIPQuotedRecogniser.h"
 #import "NUIPIdentifierRecogniser.h"
