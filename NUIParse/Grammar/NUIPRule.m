@@ -123,6 +123,7 @@
 {
     [name release];
     [rightHandSide release];
+    [_tagNames release];
     
     [super dealloc];
 }
