@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NUIParse"
-  s.version      = "1.3"
+  s.version      = "1.4"
   s.summary      = "A shift/reduce parsing framework for Mac OS X and iOS"
   s.description  = "NUIParse is a fork of CoreParse, a parsing library for Mac OS X and iOS."
   s.homepage       = "https://github.com/tombenner/NUIParse"
