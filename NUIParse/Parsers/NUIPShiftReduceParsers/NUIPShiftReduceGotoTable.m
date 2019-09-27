@@ -7,7 +7,7 @@
 //
 
 #import "NUIPShiftReduceGotoTable.h"
-
+#import <NUIParse/NUIParse.h>
 
 @implementation NUIPShiftReduceGotoTable
 {
@@ -82,7 +82,7 @@
 
 - (NSUInteger)gotoForState:(NSUInteger)state rule:(NUIPRule *)rule
 {
-    return [(NSNumber *)[table[state] objectForKey:[rule name]] unsignedIntegerValue];
+    return [(NSNumber *)[table[state] objectForKey:[rule getName]] unsignedIntegerValue];
 }
 
 @end
