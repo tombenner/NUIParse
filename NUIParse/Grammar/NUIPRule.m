@@ -190,11 +190,3 @@
 }
 
 @end
-
-@implementation NUIPRule (Helpers)
-
-- (NSString *)getName {
-    return name;
-}
-
-@end

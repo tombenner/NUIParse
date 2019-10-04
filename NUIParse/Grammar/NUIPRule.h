@@ -142,12 +142,3 @@
 - (BOOL)isRule;
 
 @end
-
-@interface NUIPRule (Helpers)
-
-/**
-* Special getter for the "name" variable, because "name" isn't valid since Xcode 11.0
-*/
-- (NSString *)getName;
-
-@end
