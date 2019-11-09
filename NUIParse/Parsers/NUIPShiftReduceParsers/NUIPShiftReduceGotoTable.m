@@ -7,7 +7,7 @@
 //
 
 #import "NUIPShiftReduceGotoTable.h"
-
+#import <NUIParse/NUIParse.h>
 
 @implementation NUIPShiftReduceGotoTable
 {
