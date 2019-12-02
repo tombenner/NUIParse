@@ -51,7 +51,7 @@
                     NUIPGrammarSymbol *next = [item nextSymbol];
                     if (nil == next)
                     {
-                        if ([[[item rule] name] isEqualToString:startSymbol])
+                        if ([[[item rule] ruleName] isEqualToString:startSymbol])
                         {
                             BOOL success = [[self actionTable] setAction:[NUIPShiftReduceAction acceptAction] forState:idx name:@"EOF"];
                             if (!success)
@@ -144,7 +144,7 @@
     {
         for (NUIPItem *item in kernel)
         {
-            if ([[[item rule] name] isEqualToString:grammarStartSymbol] && 0 == [item position])
+            if ([[[item rule] ruleName] isEqualToString:grammarStartSymbol] && 0 == [item position])
             {
                 NSMutableDictionary *gotoSpontaneous = [spontaneous objectForKey:kernel];
                 NSMutableSet *itemSpontaneous = [gotoSpontaneous objectForKey:item];

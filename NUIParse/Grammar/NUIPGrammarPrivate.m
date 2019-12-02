@@ -65,7 +65,7 @@ static char followCacheKey;
     return [[[self allRules] allObjects] sortedArrayUsingComparator:^ NSComparisonResult (NUIPRule *r1, NUIPRule *r2)
             {
                 NSComparisonResult t = [r1 tag] < [r2 tag] ? NSOrderedDescending : [r1 tag] > [r2 tag] ? NSOrderedAscending: NSOrderedSame;
-                NSComparisonResult r = NSOrderedSame != t ? t : [[r1 name] compare:[r2 name]];
+                NSComparisonResult r = NSOrderedSame != t ? t : [[r1 ruleName] compare:[r2 ruleName]];
                 return NSOrderedSame != r ? r : ([[r1 rightHandSideElements] count] < [[r2 rightHandSideElements] count] ? NSOrderedAscending : ([[r1 rightHandSideElements] count] > [[r2 rightHandSideElements] count] ? NSOrderedDescending : NSOrderedSame));
             }];
     
@@ -126,7 +126,7 @@ static char followCacheKey;
     
     for (NUIPRule *rule in rules)
     {
-        [symbols addObject:[rule name]];
+        [symbols addObject:[rule ruleName]];
         for (id sym in [rule rightHandSideElements])
         {
             if ([sym isGrammarSymbol])

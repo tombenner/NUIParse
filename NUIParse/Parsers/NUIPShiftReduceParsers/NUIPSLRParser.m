@@ -45,7 +45,7 @@
             NUIPGrammarSymbol *next = [item nextSymbol];
             if (nil == next)
             {
-                if ([[[item rule] name] isEqualToString:startSymbol])
+                if ([[[item rule] ruleName] isEqualToString:startSymbol])
                 {
                     BOOL success = [[self actionTable] setAction:[NUIPShiftReduceAction acceptAction] forState:idx name:@"EOF"];
                     if (!success)
@@ -55,7 +55,7 @@
                 }
                 else
                 {
-                    NSSet *follow = [aug follow:[[item rule] name]];
+                    NSSet *follow = [aug follow:[[item rule] ruleName]];
                     for (NSString *f in follow)
                     {
                         BOOL success = [[self actionTable] setAction:[NUIPShiftReduceAction reduceAction:[item rule]] forState:idx name:f];

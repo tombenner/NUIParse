@@ -193,9 +193,9 @@
                                                    }];
                          [f unionSet:firstMinusEmpty];
                      }
-                     else if (![[rule name] isEqualToString:name])
+                     else if (![[rule ruleName] isEqualToString:name])
                      {
-                         [f unionSet:[self follow:[rule name]]];
+                         [f unionSet:[self follow:[rule ruleName]]];
                      }
                  }
              }];

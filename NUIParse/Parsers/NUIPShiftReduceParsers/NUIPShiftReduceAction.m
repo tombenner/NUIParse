@@ -215,7 +215,7 @@ ActionDetails;
         case kActionTypeShift:
             return [NSString stringWithFormat:@"s%ld", (long)details.shift];
         case kActionTypeReduce:
-            return [NSString stringWithFormat:@"r%@", [details.reductionRule name]];
+            return [NSString stringWithFormat:@"r%@", [details.reductionRule ruleName]];
         case kActionTypeAccept:
             return @"acc";
     }

@@ -385,7 +385,7 @@
     NSMutableSet *definedNonTerminals = [NSMutableSet setWithCapacity:[rules count]];
     for (NUIPRule *rule in rules)
     {
-        [definedNonTerminals addObject:[rule name]];
+        [definedNonTerminals addObject:[rule ruleName]];
     }
     
     for (NUIPRule *rule in rules)
@@ -428,11 +428,11 @@
 - (void)addRule:(NUIPRule *)rule
 {
     NSMutableDictionary *rs = [self rulesByNonTerminal];
-    NSMutableArray *arr = [rs objectForKey:[rule name]];
+    NSMutableArray *arr = [rs objectForKey:[rule ruleName]];
     if (nil == arr)
     {
         arr = [NSMutableArray array];
-        [rs setObject:arr forKey:[rule name]];
+        [rs setObject:arr forKey:[rule ruleName]];
     }
     [arr addObject:rule];
 }
