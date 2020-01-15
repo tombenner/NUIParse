@@ -18,7 +18,7 @@
     NSSet *_tagNames;
 }
 
-@synthesize name;
+@synthesize ruleName;
 @synthesize tag;
 @synthesize representitiveClass;
 
@@ -50,7 +50,7 @@
     
     if (nil != self)
     {
-        [self setName:initName];
+        [self setRuleName:initName];
         [self setRightHandSideElements:rightHandSideElements];
         [self setTag:0];
         [self setRepresentitiveClass:initRepresentitiveClass];
@@ -103,7 +103,7 @@
     if (nil != self)
     {
         [self setTag:[aDecoder decodeIntegerForKey:NUIPRuleTagKey]];
-        [self setName:[aDecoder decodeObjectForKey:NUIPRuleNameKey]];
+        [self setRuleName:[aDecoder decodeObjectForKey:NUIPRuleNameKey]];
         [self setRightHandSideElements:[aDecoder decodeObjectForKey:NUIPRuleRHSElementsKey]];
         [self setRepresentitiveClass:NSClassFromString([aDecoder decodeObjectForKey:NUIPRuleRepresentitiveClassKey])];
     }
@@ -121,9 +121,8 @@
 
 - (void)dealloc
 {
-    [name release];
+    [ruleName release];
     [rightHandSide release];
-    [_tagNames release];
     
     [super dealloc];
 }
@@ -135,7 +134,7 @@
 
 - (NSUInteger)hash
 {
-    return [name hash] ^ [self tag];
+    return [ruleName hash] ^ [self tag];
 }
 
 - (BOOL)isRule
@@ -147,7 +146,7 @@
 {
     return ([object isRule] &&
             ((NUIPRule *)object)->tag == tag &&
-            [((NUIPRule *)object)->name isEqualToString:name] &&
+            [((NUIPRule *)object)->ruleName isEqualToString:ruleName] &&
             [((NUIPRule *)object)->rightHandSide isEqualToArray:rightHandSide] &&
             (_tagNames == nil || [((NUIPRule *)object)->_tagNames isEqualToSet:_tagNames]));
 }

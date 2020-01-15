@@ -93,7 +93,7 @@
 
 - (NSString *)description
 {
-    NSMutableString *desc = [NSMutableString stringWithFormat:@"%@ ::= ", [[self rule] name]];
+    NSMutableString *desc = [NSMutableString stringWithFormat:@"%@ ::= ", [[self rule] ruleName]];
     NSUInteger pos = 0;
     NSArray *rse = [[self rule] rightHandSideElements];
     for (NSObject *obj in rse)
